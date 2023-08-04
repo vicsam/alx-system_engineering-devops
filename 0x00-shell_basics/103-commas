@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -Ap | LC_ALL=C sort -t / -k 2,2V -k 1 | tr '\n' ', ' | sed 's/, $/\n/'
-
+ls -Ap | LC_ALL=C sort -t / -k 2,2V -k 1
